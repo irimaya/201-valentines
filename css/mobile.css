@@ -1,0 +1,96 @@
+/* Utility Classes */
+.display-1 {
+	font-size: 3.5rem;
+}
+
+.display-2 {
+	font-size: 2rem;
+}
+
+.display-3 {
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+/* Mainheader */
+#mainheader {
+	height: 100%;
+}
+
+/* Navbar */
+#navbar .logo {
+	float: none;
+	text-align: center;
+}
+
+#navbar ul {
+	float: none;
+	padding-left: 50px;
+}
+
+/* Showcase */
+#showcase {
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+/* Valentine */
+#valentine {
+	padding: 20px 0;
+}
+
+.valentine-row {
+	flex-wrap: wrap;
+}
+
+.valentine-row-text {
+	padding-right: 1px;
+	display: block;
+	margin: 0 auto;
+}
+
+.valentine-row-btn {
+	flex-wrap: wrap;
+	padding-top: 10px;
+	padding-left: 90px;
+}
+
+.valentine-row-btn-yes,
+.valentine-row-btn-no {
+	padding: 20px;
+}
+
+/* Yes */
+#yes {
+	padding: 50px 0;
+}
+
+.yes-row {
+	flex-wrap: wrap;
+}
+
+/* Dinner, Gift & Show */
+#dinner,
+#gift,
+#show {
+	padding: 40px 0;
+}
+
+.dinner-row,
+.gift-row,
+.show-row {
+	flex-wrap: wrap;
+}
+
+.dinner-row img,
+.gift-row img,
+.show-row img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.dinner-row-text,
+.gift-row-text,
+.show-row-text {
+	padding-left: 0;
+}

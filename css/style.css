@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 1.25rem;
+}
+
+.display-1 {
+	font-size: 5.5rem;
+	font-weight: 300;
+}
+
+.display-2 {
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.display-3 {
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+.btn-red-outline {
+	background: #dd2e0d;
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.btn-red {
+	background: #dd2e0d;
+	border: 2px solid #dd2e0d;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* Mainheader */
+#mainheader {
+	background: url('../img/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+/* Mainheader No */
+#mainheader-no {
+	background: url('../img/no.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+#mainheader-no .display-3 {
+	padding-top: 80px;
+}
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #fff;
+}
+
+#navbar .logo {
+	font-family: 'Dancing Script', cursive;
+	float: left;
+	font-size: 40px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Navbar red */
+.navbar-red {
+	background: #a3000d;
+}
+
+/* Showcase */
+#showcase {
+	text-align: center;
+	padding-top: 200px;
+	color: #fff;
+}
+
+#showcase p {
+	padding: 15px 0;
+}
+
+/* Valentine */
+#valentine {
+	background: #a3000d;
+	padding: 80px 0;
+	color: #fff;
+}
+.valentine-row {
+	display: flex;
+}
+
+.valentine-row-text {
+	padding-right: 40px;
+}
+
+.valentine-row-btn {
+	display: flex;
+	padding-top: 10px;
+}
+
+.valentine-row-btn-yes,
+.valentine-row-btn-no {
+	padding: 20px;
+}
+
+/* Yes */
+#yes {
+	padding: 100px 0;
+}
+
+.yes-row {
+	display: flex;
+}
+.yes-row-box {
+	padding: 15px;
+}
+
+.yes-row-box img {
+	width: 100%;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.yes-row-box a {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Dinner, Gift & Show */
+#dinner,
+#gift,
+#show {
+	padding: 120px 0;
+}
+
+.dinner-row,
+.gift-row,
+.show-row {
+	display: flex;
+}
+
+.dinner-row img,
+.gift-row img,
+.show-row img {
+	width: 600px;
+	border-radius: 20px;
+}
+
+.dinner-row-text,
+.gift-row-text,
+.show-row-text {
+	padding-left: 30px;
+}
+
+/* Mainfooter */
+#mainfooter {
+	background: #a3000d;
+	text-align: center;
+	padding: 30px;
+}
